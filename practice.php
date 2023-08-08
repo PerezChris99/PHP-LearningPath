@@ -81,6 +81,10 @@
     if(isset($_POST['username'])){
         echo "Hello" . $_POST['username'];
     }
+    //request
+    if(isset($_REQUEST['username'])){
+        echo "Hello" . $_REQUEST['username'];
+    }
 
 
 

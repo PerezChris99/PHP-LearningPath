@@ -48,6 +48,40 @@
     echo $associative_array["2"];
     echo $associative_array["3"];
 
+    //loops, repetitive statements
+    //for loops
+    for($i = 0; $i < 20; $i++){
+        echo $i;
+    }
+    for($i = 0; $i <= 20; $i++){
+        echo $i;
+    }
+    echo '<br>';
+    //while loops
+    while($a < $b){
+        echo $a;
+        $a++;
+    }
+    echo '<br>';
+    while($a <= $b){
+        echo $a;
+        $a++;
+    }
+    echo '<br>';
+    //foreach loops
+    foreach($associative_array as $ar){
+        echo $ar;
+    }
+
+
+
+
+
+
+
+
+
+
 
 
 

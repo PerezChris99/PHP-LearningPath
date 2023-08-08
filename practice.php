@@ -72,6 +72,12 @@
     foreach($associative_array as $ar){
         echo $ar;
     }
+    //form handling
+    //get request
+    if(isset($_GET['username'])){
+        echo "Hello  " . $_GET['username'];
+    }
+
 
 
 

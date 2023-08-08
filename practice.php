@@ -3,7 +3,7 @@
 
     //variables
     $a = 10;
-    $b = 'this is a variable';
+    $b = 70;
 
     echo $a;
     echo '<br>';
@@ -12,7 +12,30 @@
     echo $b;
 
     // operators
-    
+    $r = $a + $b;
+    $r = $a * $b;
+    $r = $a / $b;
+    $r = $a % $b;
+
+    $r = $a % $b;
+    echo "This is the result: " . $r;
+
+    //conditional statements
+    if($a > $b){
+        echo "a is greater than b";
+    }
+    elseif($a == $b){
+        echo "a is equal to b";
+    }
+    else{
+        echo "a is smaller than b";
+    }
+
+
+
+
+
+
 
 
 

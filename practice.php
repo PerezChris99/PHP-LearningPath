@@ -77,7 +77,10 @@
     if(isset($_GET['username'])){
         echo "Hello  " . $_GET['username'];
     }
-
+    //post request
+    if(isset($_POST['username'])){
+        echo "Hello" . $_POST['username'];
+    }
 
 
 

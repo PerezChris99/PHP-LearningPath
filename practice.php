@@ -86,6 +86,11 @@
         echo "Hello" . $_REQUEST['username'];
     }
 
+    //functions
+    function hello(){
+        echo "Hey, This is PHP";
+    }
+    hello();
 
 
 
